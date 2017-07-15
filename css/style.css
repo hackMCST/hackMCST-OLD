@@ -71,11 +71,10 @@ p{
 }
 
 
-table, td{
+#lol, td{
             border: clear;
             border-collapse: collapse;
          
-    
         }
         
         td{
@@ -83,7 +82,7 @@ table, td{
             padding: 15px 15px 1px 15px;
             
         }
-td h4 {
+#lol td h4 {
     color:  #FE2E2E;
     font-size: 21px;
 }
@@ -99,7 +98,7 @@ td h4 {
 .tableCSS a:hover{
     color: grey;
 }
-td p{
+#lol td p{
     font-size: 19px;
 }
      
@@ -275,8 +274,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide4{
 	background-color: #fff;
 	color: #333333;
-	height: 857px;
-	padding: 55px 0 200px 0;
+	height: auto;
+	padding: 55px 0 50px 0;
 }
 
 #slide5{
