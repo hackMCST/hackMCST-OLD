@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>hackMCST 2017 </title>
+     <link rel="shortcut icon" type="image/x-icon" href="favicon48x48.png">
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
+ </head> 
+	
+<body>
+
+
+
+<!----- HEADER START--->   
+<header id="header">
+<div class="content">
+<div id="logo"><a href=""> hackMCST 2017 </a></div>
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#slide2" title="Next Section">About</a></li>
+		<li><a href="#slide3" title="Next Section">Register</a></li>
+		<li><a  href="#slide4" title="Next Section">FAQ</a></li>
+		<li><a href="#slide5" title="Next Section">Schedule</a></li>
+        <li><a href="#slide5" title="Next Section">Sponsors</a></li>
+     
+	</ul>
+</nav>
+</div>
+</header>	
+<!----- HEADER END--->   
+
+<!----- SLIDES START --->   	
+	<div id="slide1">
+		<div class="content">
+			<br><br><br><br><br><br><br><br><br>
+            <h1>hackMCST 2017</h1>
+            <h2>December 9-10</h2>
+       
+            
+		    
+		    <div id="divider"> </div>
+		  
+		</div> 
+    </div> 
+
+	<div id="slide2">
+		<div class="content" >
+            <div class="specialText_container">
+                  <div class="logoDiv">
+                <img class="logo" src="/img/hackMCSTLogo.png"></div>
+		    <h3 class="specialTextA">hackMCST is the first 24-hour high school hackathon in the suburbs of Morris County founded by high school students to empower high school students.</h3>
+		  <p class="blockText">hackMCST empowers high school and middle school students with opportunities to build apps, video games, network, and expand their skills and grow as developers. </p>
+		<p class="blockText">No matter what age, skill, interest hackMCST has something for everyone! From talks to workshops we engage every hacker!</p>
+            </div> 
+		</div> 
+    </div> 
+	
+	
+   <div id="slide3">
+		<div class="content">
+              <div class="container">
+                  <br><br><br>
+		    <h3 class="specialText">Where: <a href="https://www.google.com/maps/place/Morris+County+School+of+Technology/@40.8785259,-74.4812148,17z/data=!3m1!4b1!4m5!3m4!1s0x89c309e963fda6d3:0x1857e776c260c856!8m2!3d40.8785259!4d-74.4790261">Morris County School of Technology</a> </h3>
+             <h3 class="specialText">When: <a href="">December 9th-10th</a> </h3> 
+                <br><br>  <h2 class="specialText3"><a href="https://localhackday.mlh.io/register/?id=denville" target="_blank">Sign Up Here </a></h2>
+		  
+		</div> 
+		</div> 
+    </div> 
+	
+	
+	<div id="slide4">
+		<div class="content">
+              <div class="container">
+		 <table id="lol" align="center">
+             <tr>
+                <td>
+                    
+                    <h4>What is a hackathon?</h4>
+                    <p>A hackathon is a coding event in which hackers and/or a team of hackers together develop a “hack”. A hack could be anything…a website, an app, an invention. Let your imagination run wild! Hackathons are an awesome opportunity to meet new people, companies, learn coding, and build a project. </p>
+                 </td>
+                   <td>
+                       <h4>Who can attend?</h4>
+                       <p>Anyone that is a current high school in the world can attend! Shoot us an email for questions.  <br><br><br> </p>
+                 </td>
+                 
+                  <td>
+                       <h4>How much does it cost?</h4>
+                      <p>Absolute Zero! It’s FREE! That’s the best thing about hackathons. They are absolutely free to hackers. Our wonderful sponsors cover the costs of food and swag! However, at the time we are not able to accomodate any travel requests. In the future we will try! <br></p>
+                 </td>
+                
+             </tr> 
+           
+           
+             
+             <tr>
+                <td>
+                    <h4>
+                    How long is the event?
+                    </h4>
+                    <p>hackMCST 2017 is a 24-hour long event hosted at Morris County School of Technology in Denville, NJ. It starts at 10am on Saturday December 9th and ends at 10am on Sunday December 10th. This is a mini hackathon. Bigger hackathons are 24 or 36 hours!</p>
+                 </td>
+                  <td>
+                      <h4>What if I have never attended before?
+                          </h4>
+                      <p>You have come to the right place! If you’ve never attended a hackathon before Local Hack Day is a great place to begin and dip your toes in the water!</p>
+                 </td>
+                
+                  <td>
+                       <h4>What should I bring?</h4>
+                      <p>You are required to bring a laptop, phone, charging cables, student ID, and power strips. Personal hygiene products and an extra set of clothes are also recommended!  Food and drinks will be provided to hackers due to the help from our sponsors.</p>
+                 </td>
+                 
+                  
+             </tr>
+             <tr>
+             <td>
+                       <h4>Is the event supervised? Who runs it?</h4>
+                      <p class="tableCSS">Yes! The event is supervised by parent chaperones, Morris County School of Technology administration, and school faculty. Security of hackers is our main priority. The event is ran by our <a href="team.html">awesome team of students</a>, MCST's Tech Club, and our dedicated volunteers.</p>
+                 </td>
+              <td>
+                       <h4>Is this the first time you're hosting an event like this?</h4>
+                      <p>
+                          No! We hosted hackMCST Local Hack Day in October 2015! This year it will be bigger and better! hackMCST Local Hack Day is the first hackathon to ever take place in Morris County!</p>
+  
+                 </td>
+                 
+                  
+                  <td>
+                       <h4>More questions or concerns?</h4>
+                      <p class="tableCSS"> Shoot us an email at <a href="mailto:hackmcst@gmail.com">info@mcstlhd.tech</a> or message us on <a href="https://www.facebook.com/hackMCST/" target="_blank">Facebook</a>!</p>
+                <p class="tableCSS">Learn more about us:
+                      <br /> <a href="https://www.tapinto.net/towns/denville/articles/morris-county-school-of-technology-hosts-local-ha" target="_blank" >TAPintoDenville</a>
+            <br /><a href="http://www.northjersey.com/community-news/morris-county-school-of-technology-hosting-local-hack-day-1.1426683" target="_blank">North Jersey</a></p>
+
+                 </td>
+             </tr>
+           
+    
+                  </table>   
+                  <br>
+                
+		</div> 
+		</div> 
+    </div> 
+	
+	
+	<div id="slide5">
+		<div class="content">
+           <div class="specialText_container">
+		    <h3 class="specialText"></h3>
+               <div class="sponsor">
+              <a href=""> <img src="/img/Judging%20Criteria.png"></a>
+                   
+                </div>
+               
+               </div> 
+		<!--<div id="copyright"><a href="http://www.1stwebdesigner.com/">Copyright 1stwebdesigner.com </a></div>  -->
+		</div> 
+		
+
+    </div> 
+	
+<!----- SLIDES END --->
+
+</body>
+    <footer>
+        <!--<div>Icons made by <a href="http://www.flaticon.com/authors/bogdan-rosu" title="Bogdan Rosu">Bogdan Rosu</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+ <p align="center">Made with &hearts; in MCST Tech Club</p>
+        <div class="icons">
+      <a href="https://www.facebook.com/hackMCST/" target="_blank">  <img src="/img/facebook.png" width="32" height="32"></a>
+            <a href="https://twitter.com/hackmcst" target="_blank">   <img src="/img/twitter.png" width="32" height="32"></a>
+            </div>
+    </footer>
+</html>
