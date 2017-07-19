@@ -292,9 +292,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide6{
 	background-color: #fff;
-	height: 250px;
+	height: auto;
 	margin: 0 auto;
-	padding: 90px 0 250px 0;
+	padding: 90px 0 150px 0;
 	color: #fff;
 	background-size: cover;
 }
@@ -434,4 +434,10 @@ align-items: center;
      width: 350px;
     height: 250px;
     border: 3px #fe2e22 solid;
+}
+
+.logos img{
+    padding: 0px;
+    margin: auto;
+    
 }
