@@ -441,3 +441,24 @@ align-items: center;
     margin: auto;
     
 }
+.button{
+     background-color: white;
+    border: none;
+    color: #fe2e22;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: auto;
+    cursor: pointer;
+    border: 2px #ccc solid;
+    }
+
+.button:hover{
+    background-color: #a3a3a3;
+}
+
+.buttonDiv{
+    text-align: center;
+}
