@@ -413,7 +413,7 @@ display: inline-block;
     width: 300px;
 }
 mark{
-    background-color: grey;
+    background-color: #ccc;
 }
 
 .flex-container{
