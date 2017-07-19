@@ -351,6 +351,29 @@ display: inline-block;
     
 }
 
+.button{
+     background-color: white;
+    border: none;
+    color: #fe2e22;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: auto;
+    cursor: pointer;
+    border: 2px #ccc solid;
+    /*whatt pls */
+    }
+
+.button:hover{
+    background-color: #a3a3a3;
+}
+
+.buttonDiv{
+    text-align: center;
+}
+
 .memberM h2{
     font-size: 30px;
     color: grey;
