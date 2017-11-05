@@ -464,3 +464,34 @@ align-items: center;
     margin: auto;
     
 }
+
+
+/*SPONSOR LOGO FLEX BOX CSS*/
+
+.flex-containerLogo {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+	width:100%;
+}
+
+.flex-item-2500{
+  
+    width: auto;
+    height: auto;
+  
+}
+ .flex-item-1000,  .flex-item-500,  .flex-item-250,  .flex-item-100,  .flex-item-Less100 {
+  
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+
