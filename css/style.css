@@ -488,10 +488,15 @@ align-items: center;
     height: auto;
   
 }
- .flex-item-1000,  .flex-item-500,  .flex-item-250,  .flex-item-100,  .flex-item-Less100 {
+ .flex-item-1000,  .flex-item-500,  .flex-item-250,  .flex-item-100 {
   
     width: auto;
     height: auto;
     margin-right: 5px;
 }
 
+.flex-item-Less100{
+    width: auto;
+    height: auto;
+    margin-right: 3px;
+}
